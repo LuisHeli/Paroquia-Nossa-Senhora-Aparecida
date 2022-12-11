@@ -66,7 +66,7 @@ header {
 }
 .section-1 {
     background-image: linear-gradient(to right, #ece4dd, #E0DBD7);
-    width: 100vw;   
+    width: 100vw;
     height: 12vw;
 }
 .p1 {
@@ -94,6 +94,7 @@ header {
     text-align: center;
 }
 #p2-text {
+    padding-top: 0.4vw;
     font-size: 1vw;
     text-align: center;
     color: gray;
@@ -120,11 +121,18 @@ header {
     margin-top: 5vw;
     position: relative;
     text-align: center;
-    font-size: 2vw;
+    font-size: 2.5vw;
     font-weight: bold;
     letter-spacing: 0.2vw;
     font-family: 'Lobster', cursive;
     margin-top: 1.6vw;
+}
+.sec-2-img {
+    display: inline-block;
+    position: relative;
+    margin-top: 4vw;
+    left: 12vw;
+    padding-left: 5vw;
 }
 .sec-2-img-1 {
     position: relative;
@@ -136,8 +144,11 @@ header {
     position: relative;
 }
 #sec-2-img-1-id {
-    width: 12.5vw;
+    width: 12.98vw;
 }
 #sec-2-img-2-id {
+    width: 20vw;
+}
+#sec-2-img-3-id {
     width: 30vw;
 }
