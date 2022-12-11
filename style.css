@@ -16,12 +16,18 @@ header {
     width: 100vw;
     height: 7vw;
 }
-
-.div-h1-header {
+.div-img-cruz-1 {
+    display: inline-block;
     position: relative;
-    top: 2.5vh;
-    left: 6.4vw;
-    width: 85vw;
+    left: 6vw;
+    top: 1vw;
+}
+.div-h1-header {
+    display: inline-block;
+    position: relative;
+    top: 2vw;
+    left: 7vw;
+    width: 70vw;
 }
 
 .h1-header {
@@ -29,7 +35,7 @@ header {
     font-family: 'Roboto', sans-serif;
     font-size: 2vw;
     font-weight: 500;
-    width: 40vw;
+    width: 33vw;
 }
 .header-item {
     position: relative;
@@ -151,4 +157,168 @@ header {
 }
 #sec-2-img-3-id {
     width: 30vw;
+}
+footer {
+    background-color: #434542;
+    width: 100vw;
+    height: 14vw;
+}
+.credits {
+    position: relative;
+    top: 10vw;
+}
+.credits-a {
+    color: rgb(240, 240, 240);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1vw;
+    text-decoration: none;
+}
+.endereco-display {
+    position: relative;
+    text-align: center;
+    top: 5vw;
+}
+.p-endereco {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1.2vw;
+}
+
+
+/* Media Queries */
+
+
+@media (max-width: 1390px) {
+    .header-item {
+        position: relative;
+        display: inline-block;
+        bottom: 2.2vh;
+        left: 40vw;
+        top: -2vw;
+    }
+    .div-h1-header {
+        display: inline-block;
+        position: relative;
+        top: 2vw;
+        left: 7vw;
+        width: 85vw;
+    }
+}
+
+@media (max-width: 1105px) {
+    header {
+        background-color: #434542;
+        width: 100vw;
+        height: 14vh;
+    }
+    .div-h1-header {
+        display: inline-block;
+        position: relative;
+        top: 2vw;
+        left: 7vw;
+        width: 85vw;
+    }
+    .h1-header {
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-size: 2.5vw;
+        font-weight: 500;
+        width: 33vw;
+    }
+}
+@media (max-width: 690px) {
+    header {
+        background-color: #434542;
+        width: 100vw;
+        height: 11vh;
+    }
+        .h1-header {
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-size: 3vw;
+        font-weight: 500;
+        width: 33vw;
+    }
+    .div-h1-header {
+        display: inline-block;
+        position: relative;
+        top: 2vw;
+        left: 3vw;
+        width: 70vw;
+    }
+    .div-img-cruz-1 {
+        display: inline-block;
+        position: relative;
+        left: 3vw;
+        top: 1vw;
+    }
+    .header-item {
+        position: relative;
+        display: inline-block;
+        bottom: 2.2vh;
+        left: 30vw;
+        top: -5vw;
+    }
+    .h1-header {
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-size: 3vw;
+        font-weight: 500;
+        width: 33vw;
+    }
+    .header-item-style {
+        text-decoration: none;
+        color: rgb(240, 240, 240);
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 1.8vw;
+        padding: 1.3vw;
+    }
+}
+@media (max-width: 490px) {
+    header {
+        background-color: #434542;
+        width: 100vw;
+        height: 13vh;
+    }
+    .h1-header {
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-size: 3.6vw;
+        font-weight: 500;
+        width: 70vw;
+    }
+    .div-h1-header {
+        display: inline-block;
+        position: relative;
+        top: 2.5vw;
+        left: 3vw;
+        width: 70vw;
+    }
+    .header-item {
+        position: relative;
+        display: inline-block;
+        bottom: 2.2vh;
+        left: 15vw;
+        top: 3vw;
+    }
+    .header-item-style {
+        text-decoration: none;
+        color: rgb(240, 240, 240);
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 2.4vw;
+        padding: 1.3vw;
+    }
+    .img-cruz-1 {
+        width: 10vw;
+    }
+    .div-img-cruz-1 {
+        display: inline-block;
+        position: relative;
+        left: 3vw;
+        top: 3vw;
+    }
 }
