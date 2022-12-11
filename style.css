@@ -161,29 +161,55 @@ header {
 footer {
     background-color: #434542;
     width: 100vw;
-    height: 14vw;
+    height: 25vw;
+}
+.img-facebook {
+    width: 3.5vw;
 }
 .credits {
     position: relative;
-    top: 10vw;
+    top: 7vw;
+    left: 3vw;
+    text-align: center;
 }
 .credits-a {
     color: rgb(240, 240, 240);
     font-family: 'Roboto', sans-serif;
-    font-weight: 500;
+    font-weight: 300;
     font-size: 1vw;
-    text-decoration: none;
+}
+.div-a-credits-2 {
+    position: relative;
+    bottom: 1vw;
+}
+.h1-credits {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4vw;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+.div-h1-credits {
+    position: relative;
+    margin-bottom: 1vw;
 }
 .endereco-display {
     position: relative;
     text-align: center;
-    top: 5vw;
+    top: 2vw;
 }
-.p-endereco {
+.p-items {
     color: white;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 1.2vw;
+}
+#p-item-2 {
+    padding-top: 1vw;
+}
+.facebook-display {
+    position: relative;
+    top: 1vw;
+    text-align: center;
 }
 
 
@@ -213,6 +239,11 @@ footer {
         width: 100vw;
         height: 14vh;
     }
+    footer {
+        background-color: #434542;
+        width: 100vw;
+        height: 33vw;
+    }
     .div-h1-header {
         display: inline-block;
         position: relative;
@@ -227,6 +258,28 @@ footer {
         font-weight: 500;
         width: 33vw;
     }
+    .p-items {
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        font-size: 1.9vw;
+    }
+    .credits-a {
+        color: rgb(240, 240, 240);
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        font-size: 1.6vw;
+    }
+    .h1-credits {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.9vw;
+        color: rgb(255, 255, 255);
+        font-weight: 500;
+    }
+    .div-a-credits-2 {
+        position: relative;
+        bottom: 1vw;
+    }
 }
 @media (max-width: 690px) {
     header {
@@ -234,7 +287,34 @@ footer {
         width: 100vw;
         height: 11vh;
     }
-        .h1-header {
+    footer {
+        background-color: #434542;
+        width: 100vw;
+        height: 33vw;
+    }
+    .p-items {
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        font-size: 1.9vw;
+    }
+    .credits-a {
+        color: rgb(240, 240, 240);
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        font-size: 1.6vw;
+    }
+    .h1-credits {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.9vw;
+        color: rgb(255, 255, 255);
+        font-weight: 500;
+    }
+    .div-a-credits-2 {
+        position: relative;
+        bottom: 3.5vw;
+    }
+    .h1-header {
         color: white;
         font-family: 'Roboto', sans-serif;
         font-size: 3vw;
@@ -283,6 +363,29 @@ footer {
         width: 100vw;
         height: 13vh;
     }
+    footer {
+        background-color: #434542;
+        width: 100vw;
+        height: 35vw;
+    }
+    .p-items {
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        font-size: 1.9vw;
+    }
+    .credits-a {
+        color: rgb(240, 240, 240);
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        font-size: 1.6vw;
+    }
+    .h1-credits {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.9vw;
+        color: rgb(255, 255, 255);
+        font-weight: 500;
+    }
     .h1-header {
         color: white;
         font-family: 'Roboto', sans-serif;
@@ -320,5 +423,16 @@ footer {
         position: relative;
         left: 3vw;
         top: 3vw;
+    }
+    .div-a-credits-2 {
+        position: relative;
+        bottom: 6vw;
+    }
+}
+@media (max-width: 340px) {
+    footer {
+        background-color: #434542;
+        width: 100vw;
+        height: 40vw;
     }
 }
