@@ -16,6 +16,9 @@ header {
     width: 100vw;
     height: 7vw;
 }
+.h1-a-header {
+    text-decoration: none;
+}
 .div-img-cruz-1 {
     display: inline-block;
     position: relative;
@@ -105,6 +108,18 @@ header {
     text-align: center;
     color: gray;
 }
+#p3-tittle {
+    font-size: 1.5vw;
+    font-weight: 500;
+    color: orange;
+    text-align: center;
+}
+#p3-text {
+    padding-top: 0.4vw;
+    font-size: 1vw;
+    text-align: center;
+    color: gray;
+}
 .div-sec-text-p1 {
     background-color: white;
     padding: 1vw;
@@ -118,6 +133,15 @@ header {
     position: relative;
     left: 50vw;
     bottom: 3.9vw;
+    background-color: white;
+    padding: 1vw;
+    width: 23vw;
+    height: 4vw;
+}
+.div-sec-text-p3 {
+    position: relative;
+    left: 34vw;
+    bottom: 2vw;
     background-color: white;
     padding: 1vw;
     width: 23vw;
@@ -213,6 +237,148 @@ footer {
 }
 
 
+/* Sobre nós */
+
+
+.div-sobre-nos-1 {
+    width: 100vw;
+    height: 35vw;
+    background-image: url(imagens/Paroquia_fotos/f37.jpg);
+    background-size: cover;
+    
+}
+.img-display {
+    margin-top: 2vw;
+    width: 12.5vw;
+    height: 18vw;
+    padding: 1vw;
+    margin-right: 7vw;
+    background-image: linear-gradient(to right, #ece4dd, #E0DBD7);
+}
+.img-1, .img-2, .img-3, .img-4 {
+    width: 12vw;
+    height: 18vw;
+}
+
+.div-sobre-nos-2 {
+    width: 20vw;
+    height: 55vw;
+    display: flex;
+    flex-direction: row;
+    margin-left: 12vw;
+}
+.h2-img {
+    margin-top: 1.5vw;
+    font-size: 1.8vw;
+    font-weight: bold;
+    color: #14436D;
+    padding: 0.7vw;
+}
+.p-img {
+    color: #14436D;
+    padding: 0.7vw;
+    font-size: 1.2vw;
+}
+
+/* Horario Missas */
+
+.main-3 {
+    width: 100vw;
+    height: 80vw;
+
+
+}
+.div-horario-missas-1 {
+    background-image: url(imagens/Paroquia_fotos/f42.jpg);
+    width: 100vw;
+    height: 30vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img-horario-missas-1 {
+    width: 35vw;
+    height: 24vw;
+    border-radius: 1vw;
+}
+.img-display-1 {
+   position: relative;
+    left: 30vw;
+    margin-top: 2vw;    
+}
+.sec-horario-missas-1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.7vw;
+    color: #000000;
+    font-weight: 500;
+
+    background-image: linear-gradient(to right, #ece4dd, #E0DBD7);
+}
+
+/* Contato */
+
+.div-contato-1 {
+    width: 100vw;
+    height: 40vw;
+    position: relative;
+    top: 5vw;
+}
+.img-contato-1 {
+    width: 30vw;
+    height: 25vw;
+    border-radius: 1vw;
+    box-shadow: black 3px 4px 4px;
+}
+.img-display-contato-1 {
+    width: 33vw;
+    position: relative;
+    left: 55vw;
+}
+.p-contato {
+    font-size: 1.6vw;
+    font-weight: 500;
+    padding-top: 2vw;
+}
+.display-contato-p {
+    position: relative;
+    top: -24vw;
+    left: 8vw;
+}
+.img-contato-2 {
+    width: 30vw;
+    height: 25vw;
+    border-radius: 1vw;
+    box-shadow: black 3px 4px 4px;
+}
+.img-display-contato-2 {
+    width: 33vw;
+    position: relative;
+    left: 35vw;
+    margin-bottom: 5vw;
+}
+
+/* Album Fotos */
+
+#img-f1 {
+    width: 30vw;
+    height: 15vw;
+}
+#img-f2 {
+    width: 30vw;
+    height: 15vw;
+}
+.display-imgs {
+    width: 90vw;
+    text-align: center; 
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+.img-class {
+    display: inline-block;
+    width: 30vw;
+    height: 15vw;
+    border-radius: 1vw;
+    box-shadow: rgba(0, 0, 0, 0.555) 3vw 4vw 4vw;
+}
 /* Media Queries */
 
 
@@ -434,5 +600,105 @@ footer {
         background-color: #434542;
         width: 100vw;
         height: 40vw;
+    }
+}
+@media (max-width: 660px) {
+    .img-display-contato-2 {
+        width: 33vw;
+        position: relative;
+        left: 35vw;
+        margin-bottom: 5vw;
+    }
+    .div-contato-1 {
+        width: 100vw;
+        height: 50vw;
+        position: relative;
+        top: 5vw;
+    }
+}
+@media (max-width: 390px) {
+    .img-display-contato-2 {
+        width: 33vw;
+        position: relative;
+        left: 35vw;
+        margin-bottom: 5vw;
+        bottom: 5vw;
+    }
+    .div-contato-1 {
+        width: 100vw;
+        height: 70vw;
+        position: relative;
+        top: 5vw;
+    }
+    .p-contato {
+        font-size: 2vw;
+        font-weight: 500;
+        padding-top: 2vw;
+    }
+}
+
+@media (max-width: 500px) {
+    #p1-tittle{
+        font-size: 1.7vw;
+        font-weight: 500;
+        text-align: center;
+        color: orange;
+    }
+    #p1-text {
+        padding-top: 0.4vw;
+        font-size: 1.2vw;
+        text-align: center;
+        color: gray;
+    }
+    #p2-tittle {
+        font-size: 1.7vw;
+        font-weight: 500;
+        color: orange;
+        text-align: center;
+    }
+    #p2-text {
+        padding-top: 0.4vw;
+        font-size: 1.2vw;
+        text-align: center;
+        color: gray;
+    }
+    #p3-tittle {
+        font-size: 1.7vw;
+        font-weight: 500;
+        color: orange;
+        text-align: center;
+    }
+    #p3-text {
+        padding-top: 0.4vw;
+        font-size: 1.2vw;
+        text-align: center;
+        color: gray;
+    }
+    .div-sec-text-p1 {
+        background-color: white;
+        padding: 1vw;
+        width: 20vw;
+        height: 6vw;
+        position: relative;
+        left: 20vw;
+        top: 2.1vw;
+    }
+    .div-sec-text-p2 {
+        position: relative;
+        left: 50vw;
+        bottom: 5.7vw;
+        background-color: white;
+        padding: 1vw;
+        width: 23vw;
+        height: 6vw;
+    }
+    .div-sec-text-p3 {
+        position: relative;
+        left: 34vw;
+        bottom: 2vw;
+        background-color: white;
+        padding: 1vw;
+        width: 23vw;
+        height: 6vw;
     }
 }
